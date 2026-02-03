@@ -1,0 +1,52 @@
+.bg-voilet {
+    background-color: #8724f8;
+    color: white;
+}
+
+.bg-lightpink {
+    background-color: #f6ebfe;
+}
+
+::placeholder {
+    font-size: 1.3rem;
+}
+
+.bg-lightgray {
+    background-color: rgb(242, 239, 239);
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+#overflow-hide {
+    overflow: hidden;
+}
+
+.font-icon {
+    color: #8724f8;
+    font-size: 70px;
+}
+
+.font-icon i {
+    border: 1px solid #8724f8;
+}
+
+.h-left-border {
+    border-left: 5px solid transparent;
+}
+
+.h-left-border:hover {
+    border-left: 5px solid #8724f8;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in;
+}
+
+.h-underline:hover {
+    text-decoration: underline;
+
+}
+
+.sticky {
+    position: sticky;
+}
